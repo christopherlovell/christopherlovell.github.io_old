@@ -36,9 +36,13 @@ An up-to-date list of my published research can be found on <a href="https://ui.
 
 ## Co-Authored Publications
 
+- *First Light And Reionisation Epoch Simulations (FLARES) III: The properties of massive dusty galaxies at cosmic dawn*, <a href="https://arxiv.org/abs/2108.00830" target="blank">arxiv:2108.00830</a>  
+Aswin P. Vijayan, Stephen M. Wilkins, **Christopher C. Lovell** & others, **2021**
+<br><font size="-1"><span style="color:orange">Submitted</span>, <a style="color:darkblue" href="https://arxiv.org/abs/2108.00830">Monthly Notices of the Royal Astronomical Society</a></font>
+
 - *Cosmic evolution of the H2 mass density and the epoch of molecular gas*, <a href="https://arxiv.org/abs/2103.08613" target="blank">arxiv:2103.08613</a>  
 Tracy Garratt & others including **Christopher C. Lovell**, **2021**
-<br><font size="-1"><span style="color:green">Accepted</span>, <a style="color:darkblue" href="https://arxiv.org/abs/2103.08613">Astrophysical Journal</a></font>
+<br><font size="-1"><span style="color:green">Accepted</span>, <a style="color:darkblue" href="https://iopscience.iop.org/article/10.3847/1538-4357/abec81">Astrophysical Journal</a></font>
 
 - *Debunking Generalization Error or: How I Learned to Stop Worrying and Love My Training Set* <a href="https://arxiv.org/abs/2012.00066">arxiv:2012.00066</a>
 <br> Viviana Acquaviva, **Christopher C. Lovell** & Emille Ishida, **2020**
@@ -46,7 +50,7 @@ Tracy Garratt & others including **Christopher C. Lovell**, **2021**
 
 - *The emergence of passive galaxies in the early Universe* <a href="https://arxiv.org/abs/2011.10584">arxiv:2011.10584</a>
 <br> P. Santini & others, including **Christopher C. Lovell**, **2020**
-<br><font size="-1"><span style="color:green">Accepted</span>, Astronomy & Astrophysics </font>
+<br><font size="-1"><span style="color:green">Accepted</span>, <a style="color:darkblue" href="https://www.aanda.org/articles/aa/abs/2021/08/aa39738-20/aa39738-20.html">Astronomy & Astrophysics</a> </font>
 
 - *First Light And Reionisation Epoch Simulations (FLARES) II: The Photometric Properties of High-Redshift Galaxies* <a href="https://arxiv.org/abs/2008.06057">arxiv:2008.06057</a>
 <br> Aswin P. Vijayan, **Christopher C. Lovell**, Stephen M. Wilkins, Peter A. Thomas, David J. Barnes, Dimitrios Irodotou, Jussi Kuusisto, Will Roper, **2020**
