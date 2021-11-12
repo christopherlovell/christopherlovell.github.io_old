@@ -14,7 +14,7 @@ An up-to-date list of my published research can be found on <a href="https://ui.
 
 - *A machine learning approach to mapping baryons onto dark matter halos using the EAGLE and C-EAGLE simulations* <a href="https://arxiv.org/abs/2106.04980">arxiv:2106.04980</a>
 <br> **Christopher C. Lovell**, Stephen M. Wilkins, Peter A. Thomas, Matthieu Schaller, Carlton M. Baugh, Giulio Fabbian, Yannick Bahé **2021**
-<br><font size="-1"><span style="color:orange">Submitted</span>, Monthly Notices of the Royal Astronomical Society</font>
+<br><font size="-1"><span style="color:green">Accepted</span>, <a style="color:darkblue" href="https://academic.oup.com/mnras/advance-article-abstract/doi/10.1093/mnras/stab3221/6425762">Monthly Notices of the Royal Astronomical Society</a></font>
 
 - *Reproducing sub-millimetre galaxy number counts with cosmological hydrodynamic simulations* <a href="https://arxiv.org/abs/2006.15156">arxiv:2006.15156</a>
 <br> **Christopher C. Lovell**, James E. Geach, Romeel Davé, Desika Narayanan, Qi Li, **2021**
