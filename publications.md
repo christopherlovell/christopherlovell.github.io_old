@@ -36,6 +36,10 @@ An up-to-date list of my published research can be found on <a href="https://ui.
 
 ## Co-Authored Publications
 
+- *The BPT Diagram in Cosmological Galaxy Formation Simulations: Understanding the Physics Driving Offsets at High-Redshift*
+Prerak Garg, Desika Narayanan, Nell Byler, & others including **Christopher C. Lovell**, **2022**
+<br><font size="-1"><span style="color:green">Accepted</span>, ApJ</font>
+
 - *First Light And Reionisation Epoch Simulations (FLARES) III: The properties of massive dusty galaxies at cosmic dawn*, <a href="https://arxiv.org/abs/2108.00830" target="blank">arxiv:2108.00830</a>  
 Aswin P. Vijayan, Stephen M. Wilkins, **Christopher C. Lovell** & others, **2021**
 <br><font size="-1"><span style="color:orange">Submitted</span>, <a style="color:darkblue" href="https://arxiv.org/abs/2108.00830">Monthly Notices of the Royal Astronomical Society</a></font>
