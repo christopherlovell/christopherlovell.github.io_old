@@ -5,7 +5,7 @@ title: Teaching & Outreach
 ---
 
 ## Writing
-My writing has been featured in The Conversation (see < a href="https://theconversation.com/energy-burst-from-most-distant-known-galaxy-might-have-been-a-satellite-orbiting-earth-159171">here</a>), Significance magazine (the official magazine and website of the Royal Statistical Society (RSS) and the American Statistical Association (ASA); see <a href="https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2017.01089.x">here</a>).
+My writing has been featured in The Conversation (see <a href="https://theconversation.com/energy-burst-from-most-distant-known-galaxy-might-have-been-a-satellite-orbiting-earth-159171">here</a>), Significance magazine (the official magazine and website of the Royal Statistical Society (RSS) and the American Statistical Association (ASA); see <a href="https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2017.01089.x">here</a>).
 As a graduate student I wrote for <a href="http://astrobites.org/" target="blank">Astrobites</a>, where postgraduates in Astronomy and Astrophysics write about the latest research in an accessible format for undergraduates or the public in general. You can read my posts <a href="http://astrobites.com/author/clovell/" target="blank">here</a>. 
 I still try to get involved with Astrobites when I can; if you're a graduate student in Astronomy looking to get involved feel free to ask me any questions!
 
