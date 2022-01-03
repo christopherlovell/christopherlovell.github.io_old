@@ -15,7 +15,7 @@ I still try to get involved with Astrobites when I can; if you're a graduate stu
 ## Outreach
 The James Webb Space Telescope will revolutionise our understanding of the early universe. 
 As part of Webb UK I have attended festivals and events around the UK talking to the general public about the incredible extragalactic astronomy that this space based observatory will perform. 
-I have also spoken about my research at a number of amateur astronomy groups (<a href="https://youtu.be/fV6A97y02ww">here</a> is a recording of an online talk I gave to the lovely folks in the Hatfield Astronomy group).
+I have also spoken about my research at a number of amateur astronomy groups (see <a href="https://youtu.be/fV6A97y02ww">here</a>, <a href="https://www.youtube.com/watch?v=ju1yO7gsQco">here</a>).
 <br>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mum just asked if it’s landed yet <a href="https://twitter.com/hashtag/JWST?src=hash&amp;ref_src=twsrc%5Etfw">#JWST</a></p>&mdash; Christopher Lovell (@chrisclovell) <a href="https://twitter.com/chrisclovell/status/1475037355606167554?ref_src=twsrc%5Etfw">December 26, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
