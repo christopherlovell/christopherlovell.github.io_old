@@ -81,7 +81,7 @@ This then allowed us to apply the trained model to a much <em>larger</em> DMO si
 <img class="small" src="/images/ml_sims.png" title="">
 <p style="text-align:center; font-style:italic">The simulations, features and predictors in the EAGLE and C-EAGLE simulations, as well as the dark matter only P-Millennium simulation to which we applied our model.</p>
 
-center>
+<center>
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=I66Sd4yUW9Y&t=3237s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
