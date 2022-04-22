@@ -81,6 +81,10 @@ This then allowed us to apply the trained model to a much <em>larger</em> DMO si
 <img class="small" src="/images/ml_sims.png" title="">
 <p style="text-align:center; font-style:italic">The simulations, features and predictors in the EAGLE and C-EAGLE simulations, as well as the dark matter only P-Millennium simulation to which we applied our model.</p>
 
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=I66Sd4yUW9Y&t=3237s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
 I have also developed an online tool, <a href="https://www.christopherlovell.co.uk/sengi/">Sengi</a>, for viewing the outputs of Stellar Population Synthesis (SPS) models in the browser. 
 It's fully client-side Javascript, using Non-negative matrix factorisation to serve the large grids in age-metallicity space in a fast, lightweight tool (paper <a href="https://www.sciencedirect.com/science/article/pii/S2213133720300986?via%3Dihub">here</a>).
 
