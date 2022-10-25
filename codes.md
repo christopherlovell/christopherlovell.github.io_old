@@ -9,6 +9,12 @@ Please feel free to use and edit them; all should be under a permissive licence.
 
 ---
 
+# evstats
+
+<a href="https://github.com/christopherlovell/evstats" target="source">evstats</a> is a python module for calculating extreme value statistics of the halo and galaxy stellar mass distributions. 
+Full details provided in <a href="https://arxiv.org/abs/2208.10479" target="source">arXiv:2208.10479</a>.
+
+
 # Orientation Bias
 
 [![SMG orientation](/images/smg_orientation_counts.png)](https://github.com/christopherlovell/orientation_bias)

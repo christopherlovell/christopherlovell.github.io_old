@@ -7,35 +7,16 @@ title: Research
 Below are some brief summaries of research areas I am currently working in, or have recently worked on. If you're interested in any of these topics and would like to chat further, please <a href="/contact/">get in touch!</a>
 
 <ul>
-<li><a href="#SMGs">Sub-millimetre galaxies in simulations</a></li>
 <li><a href="#FLARES">First Light And Reionisation Epoch Simulations (FLARES)</a></li>
 <li><a href="#Machine Learning & Astronomy">Machine Learning & Astronomy</a></li>
+<li><a href="#EVS">Extreme Value Statistics</a></li>
+<li><a href="#SMGs">Sub-millimetre galaxies in simulations</a></li>
 <li><a href="#Galaxy Protoclusters">Galaxy Protoclusters</a></li>
 </ul>
 
 {% include page_divider.html %}
 
-<h2><a name="SMGs">Sub-millimetre galaxies in simulations</a></h2>
-Sub-millimetre galaxies, or SMGs, are an enigmatic population of galaxies in the early universe that are incredibly bright in submillimetre wavelengths ($\sim 100 \mathrm{\mu m} - 1 \mathrm{mm}$), forming huge numbers of stars.
-It has been very difficult to model these objects in cosmological simulations whilst still self-consistently matching other observational constraints, such as the galaxy stellar mass function, at $z = 0$, and many authors have proposed alternative modelling approaches, such as a varibale IMF, to explain them.
-For a concise summary of the issues faced modelling these objects, see <a href="https://twitter.com/desikanarayanan/status/1277940211285180416" target="_blank">this thread from Desika!</a>
 
-<img class="small" src="/images/simba_render.png" title="SIMBA SMG render">
-<p style="text-align:center; font-style:italic">An example SMG showing the gas, stellar and dust distribution, as well as the resolved and integrated $S_{850}$ emission.</p>
-
-Recently (<a href="https://arxiv.org/abs/2006.15156">Lovell et al. 2021a; arXiv:2006.15156</a>), we used the <a href="https://arxiv.org/abs/1901.10203">SIMBA</a> simulation combined with the radiative transfer package <a href="https://arxiv.org/abs/2006.10757">Powderday</a> to model the sub-mm emission, and found unprecedented agreement with observationally inferred integrated number counts from single-dish instruments.
-We assessed the impact of unassociated blending by building a lightcone, and found a slight boost in the normalisation of at the bright end.
-The good agreement is driven primarily by the good match to IR-constraints on the high-redshift star formation rate function in SIMBA, as well as the self-consistent dust model which leads to higher dust masses compared to using a fixed dust-to-metals ratio, by up to a factor of 2.5.
-
-<!--img class="small" src="/images/square_counts.png" title="SIMBA 850 micron counts">
-<p style="text-align:center; font-style:italic">$S_{850}$ counts from the SIMBA simulation, compared with observational constraints, as well as predictions from the EAGLE model.</p-->
-
-In a subsequent work (<a href="https://arxiv.org/abs/2106.11588">Lovell et al. 2021b; arXiv:2106.11588</a>), we studied how the emission of SMGs is dependent on their morphology and orientation, and found an 'orientation bias' in observations of SMGs. 
-This has knock-on effects on inferred properties, such as dust temperatures and IR luminosities, as well as SFRs and other derived properties.
-It also manifests as a selection effect, that is both wavelength and redshift dependent, and we provide a <a href="https://github.com/christopherlovell/orientation_bias">tool</a>for modelling this for arbitrary surveys. 
-
-<img class="small" src="/images/smg_orientation.png" title="Simba SMG orientation dependence">
-<p style="text-align:center; font-style:italic">Four massive star forming galaxies in Simba, viewed from three orthogonal angles (top three rows), and their integrated sub-mm emission (bottom row) from 50 random orientations.</p>
 
 
 <h2><a name="FLARES">First Light And Reionisation Epoch Simulations (FLARES)</a></h2>
@@ -48,22 +29,19 @@ Such models are also necessary to make detailed predictions, and plan observatio
 <img class="small" src="/images/all_components.png" title="FLARES components">
 <p style="text-align:center; font-style:italic">The column density of gas, stars and dark matter in the most overdense region in the FLARES sample.</p>
 
-To approach these problems we started the First Light And Reionisation Epoch Simulations (FLARES), a suite of 40 'zoom' simulations using a modified version of the <a href="http://icc.dur.ac.uk/Eagle/" target="blank">EAGLE</a> code.
-EAGLE is a state-of-the-art cosmological hydrodynamic simulation that has been tuned to a small number of distribution functions in the local universe.
-We selected regions at high redshift ($z = 4.67$), with a range of overdensities, from an enormous $(3.2 \, \mathrm{Gpc})^3$ periodic dark matter-only volume, and resimulated these with full hydrodynamics at fiducial EAGLE resolution ($m_{\mathrm{gas}} \sim 10^6 \, \mathrm{M_{\odot} \, yr^{-1}}$).
-I led the first release paper (<a href="https://arxiv.org/abs/2004.07283">Lovell et al 2021; arXiv:2004.07283</a>) in which we study the galaxy stellar mass function, star formation rate function and star-forming sequence predictions.
-By weighting them appropriately we combine the regions to produce composite distribution functions, significantly extending the dynamic range compared to periodic simulations at similar resolution.
-We can also study the environmental dependence of galaxy formation and evolution during the Epoch of Reionisation (EoR).
+<a href="flaresimulations.github.io/" target="source">The First Light And Reionisation Epoch Simulations (FLARES)</a> are one approach to these issues.
+FLARES consists of a suite of 40 'zoom' simulations using a modified version of the <a href="http://icc.dur.ac.uk/Eagle/" target="blank">EAGLE</a> code.
+We selected regions at high redshift, with a range of overdensities, from an enormous periodic dark matter-only volume, and resimulated these with full hydrodynamics at fiducial EAGLE resolution. 
+I led the first release paper (<a href="https://arxiv.org/abs/2004.07283">Lovell et al 2021; arXiv:2004.07283</a>) in which we study predictions for the galaxy stellar mass function, star formation rate function and star-forming sequence.
 Below is an introductory talk that I gave at the 2020 SAZERAC meeting (with awkward slide transition requests due to a technical error...!).
 
 <center>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/95pZbjGGpjA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
 
-There are a number of other FLARES papers either published or in the works.
-Aswin presented predictions for the photometric properties in <a href="https://arxiv.org/abs/2008.06057">Vijayan et al 2020; arXiv:2008.06057</a>, and will soon be presenting predictions for the dust reprocessed emission, using radiative transfer techniques.
-I am currently working on predictions for the passive galaxy population at $z > 5$, some early results are presented in this talk at SAZERAC 2021 <a href="https://www.youtube.com/watch?v=VRHcg5EHJOs">here</a>.
+The FLARES project has now produced a number of published papers on a range of topics.
 For further details please check out our dedicated website, <a href="https://flaresimulations.github.io/">flaresimulations.github.io</a>, where you can find data products and visualisations.
+I am currently working on predictions for the passive galaxy population at $z > 5$, some early results are presented in this talk at SAZERAC 2021 <a href="https://www.youtube.com/watch?v=VRHcg5EHJOs">here</a>.
 
 <!--img class="small" src="/images/flares_fom.png" title="FLARES figure of merit">
 <p style="text-align:center; font-style:italic">Figure of merit showing the distribution of a number of simulations on a plane of dark matter element resolution against simulated volume. FLARES, whilst explicitly simulating a similar volume to similar resolution simulations, has an 'effective' volume 4 orders of magnitude larger when combining the regions.</p-->
@@ -100,6 +78,40 @@ We followed this up with a paper (<a href="https://arxiv.org/abs/2012.00066">Acq
 <!--a href="https://www.youtube.com/watch?v=R2MZ5HXZH_A" target="blank"><img class="small" src="/images/RAS2019_talk.jpg" title="RAS 2019 talk"></a-->
 
 <!-- <h2><a href="High Redshift Galaxy Evolution" name="High Redshift Galaxy Evolution">High Redshift Galaxy Evolution</a></h2> -->
+
+<h2><a name="EVS">Extreme Value Statistics</a></h2>
+
+What's the most massive galaxy we expect in the observable Universe?
+And do any currently observed galaxies break our cosmological model?
+In order to answer these questions we used Extreme Value Statistics to make predictions for the most massive halo and galaxy, comparing to both simulations and recent JWST observations at $z > 8$.
+We found that many recent JWST candidates are in significant tension with our current cosmological model.
+Check out the paper (<a href="https://arxiv.org/abs/2208.10479" target="source">Lovell et al. 2022; arXiv:2208.10479</a>) for more details.
+
+<img class="small" src="/assets/jwst_evs.png" title="JWST EVS">
+<p style="text-align:center; font-style:italic">The predicted distribution of stellar mass of the most massive galaxy as a function of redshift, compared to recent JWST candidates.</p>
+
+<h2><a name="SMGs">Sub-millimetre galaxies in simulations</a></h2>
+Sub-millimetre galaxies, or SMGs, are an enigmatic population of galaxies in the early universe that are incredibly bright in submillimetre wavelengths ($\sim 100 \mathrm{\mu m} - 1 \mathrm{mm}$), forming huge numbers of stars.
+It has been very difficult to model these objects in cosmological simulations whilst still self-consistently matching other observational constraints, such as the galaxy stellar mass function, at $z = 0$, and many authors have proposed alternative modelling approaches, such as a varibale IMF, to explain them.
+For a concise summary of the issues faced modelling these objects, see <a href="https://twitter.com/desikanarayanan/status/1277940211285180416" target="_blank">this thread from Desika!</a>
+
+<img class="small" src="/images/simba_render.png" title="SIMBA SMG render">
+<p style="text-align:center; font-style:italic">An example SMG showing the gas, stellar and dust distribution, as well as the resolved and integrated $S_{850}$ emission.</p>
+
+In Lovell et al. 2021a (<a href="https://arxiv.org/abs/2006.15156">arXiv:2006.15156</a>), we used the <a href="https://arxiv.org/abs/1901.10203">SIMBA</a> simulation combined with the radiative transfer package <a href="https://arxiv.org/abs/2006.10757">Powderday</a> to model the sub-mm emission, and found unprecedented agreement with observationally inferred integrated number counts from single-dish instruments.
+We assessed the impact of unassociated blending by building a lightcone, and found a slight boost in the normalisation of at the bright end.
+The good agreement is driven primarily by the good match to IR-constraints on the high-redshift star formation rate function in SIMBA, as well as the self-consistent dust model which leads to higher dust masses compared to using a fixed dust-to-metals ratio, by up to a factor of 2.5.
+
+<!--img class="small" src="/images/square_counts.png" title="SIMBA 850 micron counts">
+<p style="text-align:center; font-style:italic">$S_{850}$ counts from the SIMBA simulation, compared with observational constraints, as well as predictions from the EAGLE model.</p-->
+
+In a subsequent work (<a href="https://arxiv.org/abs/2106.11588">Lovell et al. 2022; arXiv:2106.11588</a>), we studied how the emission of SMGs is dependent on their morphology and orientation, and found an 'orientation bias' in observations of SMGs. 
+This has knock-on effects on inferred properties, such as dust temperatures and IR luminosities, as well as SFRs and other derived properties.
+It also manifests as a selection effect, that is both wavelength and redshift dependent, and we provide a <a href="https://github.com/christopherlovell/orientation_bias">tool</a> for modelling this for arbitrary surveys. 
+
+<img class="small" src="/images/smg_orientation.png" title="Simba SMG orientation dependence">
+<p style="text-align:center; font-style:italic">Four massive star forming galaxies in Simba, viewed from three orthogonal angles (top three rows), and their integrated sub-mm emission (bottom row) from 50 random orientations.</p>
+
 
 <h2><a name="Galaxy Protoclusters">Galaxy Protoclusters</a></h2>
 
