@@ -9,8 +9,8 @@ xtick.major.size : 3
 ytick.major.size : 3
 xtick.minor.size : 1.5
 ytick.minor.size : 1.5
-xtick.labelsize : 8
-ytick.labelsize : 8
+xtick.labelsize : 9
+ytick.labelsize : 9
 ytick.direction : in
 xtick.direction : in
 ytick.minor.visible : True
